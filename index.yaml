@@ -3,6 +3,16 @@ entries:
   calendar:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-12-19T13:31:37.510526512Z"
+    description: A helm chart for the marlboro golf league calendar
+    digest: 3c2bcca5f4cfdcc4f3e69e77a048253f56d1bd94a1b395a4747aa5cbea905469
+    name: calendar
+    type: application
+    urls:
+    - https://github.com/efontana/mgl-charts/releases/download/calendar-0.1.1/calendar-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-12-19T12:52:23.097354306Z"
     description: A Helm chart for Kubernetes
     digest: 4adfafbadd0ef81eff354e4a9d704de24d0c452945b6ba4581ce3c166febbb8f
