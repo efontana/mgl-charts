@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  calendar:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-19T12:52:23.097354306Z"
+    description: A Helm chart for Kubernetes
+    digest: 4adfafbadd0ef81eff354e4a9d704de24d0c452945b6ba4581ce3c166febbb8f
+    name: calendar
+    type: application
+    urls:
+    - https://github.com/efontana/mgl-charts/releases/download/calendar-0.1.0/calendar-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-12-19T12:52:22.944900712Z"
