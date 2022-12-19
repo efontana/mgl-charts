@@ -83,3 +83,9 @@ tolerations: []
 affinity: {}
 
 # comment here
+
+postgresql:
+  auth:
+    username: postgres
+    password: postgres
+    
