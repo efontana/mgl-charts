@@ -3,6 +3,23 @@ entries:
   calendar:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2022-12-20T13:17:34.068704184Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.5
+    - name: sealed-secrets
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.2.1
+    description: A helm chart for the marlboro golf league calendar
+    digest: 36c53720746bedc1060a7bce3d163a5177bed94a618941d2eb6950386308856c
+    name: calendar
+    type: application
+    urls:
+    - https://github.com/efontana/mgl-charts/releases/download/calendar-0.1.8/calendar-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2022-12-20T13:05:18.48926894Z"
     dependencies:
     - name: postgresql
