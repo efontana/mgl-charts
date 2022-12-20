@@ -29,5 +29,5 @@ dependencies:
     version: 12.1.5
 
   - name: sealed-secrets
-    repository: https://bitnami-labs.github.io/sealed-secrets
+    repository: https://charts.bitnami.com/bitnami
     version: 1.2.1
