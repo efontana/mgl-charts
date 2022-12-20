@@ -87,5 +87,5 @@ affinity: {}
 postgresql:
   auth:
     username: postgres
-    password: postgres
+    password: NMmHd1er7P
     
