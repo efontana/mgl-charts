@@ -30,6 +30,16 @@ spec:
       containers:
         - name: {{ .Chart.Name }}
           env:
+            - name: MGL_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-credentials
+                  key: username
+            - name: MGL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-credentials
+                  key: password
             - name: POSTGRES_PASSWORD
               valueFrom:
                 secretKeyRef:
