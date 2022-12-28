@@ -1,0 +1,15 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: {{ include "calendar.fullname" . }}
+  labels:
+    {{- include "calendar.labels" . | nindent 4 }}
+    release: kube-prometheus-stack
+spec:
+  endpoints:
+  - honorLabels: true
+    port: http
+    path: /metrics
+  jobLabel: app.kubernetes.io/name
+  selector:
+    {{- include "calendar.selectorLabels" . | nindent 4 }}
