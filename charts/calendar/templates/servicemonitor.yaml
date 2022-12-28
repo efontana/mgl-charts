@@ -13,4 +13,4 @@ spec:
   jobLabel: app.kubernetes.io/name
   selector:
     matchLabels:
-      {{- include "calendar.selectorLabels" . | nindent 4 }}
+      {{- include "calendar.selectorLabels" . | nindent 6 }}
