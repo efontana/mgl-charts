@@ -12,4 +12,5 @@ spec:
     path: /metrics
   jobLabel: app.kubernetes.io/name
   selector:
-    {{- include "calendar.selectorLabels" . | nindent 4 }}
+    matchLabels:
+      {{- include "calendar.selectorLabels" . | nindent 4 }}
